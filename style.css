@@ -146,3 +146,51 @@ p {
 
 /* tablet */
 @media only screen and (min-width: 601px) and (max-width: 768px) {}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* full name - Gabriel Austin */
+  .my-name-heading {
+    font-size: 0.65rem;
+    /* top: -500px; */
+  }
+
+  /* nickname - Gabe */
+  .my-name-bg-heading {
+    /* bottom: -36px; */
+    font-size: 8rem;
+    letter-spacing: 10px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+    /* top: -645px; */
+  }
+
+  /* needs work */
+  .hr-line {
+    outline: solid green;
+    position: relative;
+    width: 80%;
+    /* top: -280px; */
+  }
+
+  .position-title {
+    font-size: 1.2rem;
+    font-style: italic;
+    /* top: -270px; */
+    padding-left: 35px;
+    position: relative;
+  }
+
+  .main-image {
+    background-color: #cec2ab;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  }
+}
