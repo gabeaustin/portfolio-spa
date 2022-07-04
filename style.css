@@ -3,3 +3,146 @@
   padding: 0;
 }
 
+/* navigation */
+/*
+.main-navigation ul ul {
+  box-shadow: none;
+}
+
+#primary-menu {
+  background-color: #cec2ab;
+  justify-content: flex-end;
+  padding: 15px;
+  width: 100% !important;
+}
+
+#primary-menu a {
+  color: #333;
+  font-size: 1.2em;
+  padding-right: 20px;
+}
+
+.sub-menu {
+  background-color: #cec2ab;
+  flex-direction: column;
+  padding-left: 20px !important;
+}
+
+.sub-menu a {
+  padding: 10px 0;
+}
+
+.sub-menu a:hover {
+  background-color: #fff;
+  width: 100% !important;
+}
+*/
+body {
+  background-color: #f0ece5;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: #7f7f7f !important;
+  font-size: 1rem;
+}
+
+/* img on left side */
+.main-image {
+  background-color: #cec2ab;
+}
+
+/*
+.left-side-image {
+  padding: 80px;
+}
+
+.vc_single_image-wrapper.vc_box_border img {
+  outline: solid magenta;
+  width: 300px;
+}
+
+
+.right-side-text {
+  padding-right: 100px;
+}
+*/
+.my-name-heading p {
+  color: #333 !important;
+  font-size: 2.2rem;
+  font-weight: 900;
+  padding-left: 5px;
+  position: relative;
+  text-transform: uppercase;
+  top: 45px;
+  z-index: 100;
+}
+
+.my-name-bg-heading p {
+  bottom: -36px;
+  color: transparent !important;
+  font-size: 9.4rem;
+  font-weight: 700;
+  letter-spacing: 15px;
+  line-height: 1;
+  left: -6px;
+  max-width: 100%;
+  opacity: 0.1;
+  position: relative;
+  text-transform: uppercase;
+  top: -200px;
+  -webkit-text-stroke: 1px #7f7f7f;
+  white-space: nowrap;
+  z-index: 50;
+}
+
+.position-title p {
+  font-size: 1.2rem;
+  font-style: italic;
+  top: -270px;
+  padding-left: 5px;
+  position: relative;
+}
+
+.hr-line {
+  position: relative;
+  top: -280px;
+}
+
+.main-copy-para p {
+  position: relative;
+  top: -280px;
+}
+
+/* media queries */
+/* mobile */
+@media only screen and (max-width: 600px) {
+  .left-side-image {
+    top: 10px;
+  }
+
+  .vc_row.wpb_row.vc_inner.vc_row-fluid {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .right-side-text {
+    padding: 40px;
+  }
+
+  .my-name-heading p {
+    font-size: 1.7rem;
+    top: -500px;
+  }
+
+  .my-name-bg-heading p {
+    bottom: -36px;
+    font-size: 5.5rem;
+    letter-spacing: 10px;
+    position: relative;
+    top: -645px;
+  }
+}
+
+/* tablet */
+@media only screen and (min-width: 601px) and (max-width: 768px) {}
