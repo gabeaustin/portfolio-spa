@@ -162,13 +162,19 @@ p {
 
   /* nickname - Gabe */
   .my-name-bg-heading {
-    /* bottom: -36px; */
-    font-size: 8rem;
+    color: transparent;
+    font-size: 7rem;
+    font-weight: 700;
     letter-spacing: 10px;
-    margin: 0 auto;
+    line-height: 1;
+    max-width: 80%;
+    opacity: 0.5;
     padding: 0 10px;
     position: relative;
-    /* top: -645px; */
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #7f7f7f;
+    white-space: nowrap;
+    z-index: 50;
   }
 
   /* needs work */
@@ -190,7 +196,24 @@ p {
   .main-image {
     background-color: #cec2ab;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    overflow: none;
+    padding: 6px;
+    position: relative;
+    top: -345px;
+    vertical-align: top;
+    width: 100px;
+  }
+
+  .main-image img {
+    border: 1px solid #ebebeb;
+    border-radius: 50%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+    vertical-align: top;
   }
 }
