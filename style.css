@@ -156,8 +156,15 @@ p {
 
   /* full name - Gabriel Austin */
   .my-name-heading {
-    font-size: 0.65rem;
-    /* top: -500px; */
+    color: #333 !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+    padding-left: 20px;
+    position: relative;
+    text-transform: uppercase;
+    top: 55px;
+    z-index: 100;
   }
 
   /* nickname - Gabe */
@@ -172,6 +179,7 @@ p {
     padding: 0 10px;
     position: relative;
     text-transform: uppercase;
+    top: -20px;
     -webkit-text-stroke: 1px #7f7f7f;
     white-space: nowrap;
     z-index: 50;
@@ -179,18 +187,18 @@ p {
 
   /* needs work */
   .hr-line {
-    outline: solid green;
+    margin-left: 35px;
     position: relative;
-    width: 80%;
-    /* top: -280px; */
+    top: -20px;
+    width: 66%;
   }
 
   .position-title {
     font-size: 1.2rem;
     font-style: italic;
-    /* top: -270px; */
     padding-left: 35px;
     position: relative;
+    top: -20px;
   }
 
   .main-image {
@@ -199,10 +207,9 @@ p {
     height: auto;
     margin: 0 auto;
     max-width: 100%;
-    overflow: none;
     padding: 6px;
     position: relative;
-    top: -345px;
+    top: -400px;
     vertical-align: top;
     width: 100px;
   }
@@ -215,5 +222,10 @@ p {
     max-width: 100%;
     position: relative;
     vertical-align: top;
+  }
+
+  .main-copy-para {
+    position: relative;
+    top: 410px;
   }
 }
