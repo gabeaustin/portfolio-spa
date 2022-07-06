@@ -239,16 +239,11 @@ p {
     color: #cec2ab;
   }
 
-  .fa-github {
-    padding-right: 30px;
-
-  }
-
-  .fa-linkedin {
-    padding-left: 20px;
-  }
-
   .icons {
+    column-gap: 80px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
     position: relative;
     top: -380px;
   }
