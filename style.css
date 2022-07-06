@@ -228,4 +228,28 @@ p {
     position: relative;
     top: 410px;
   }
+
+  .right-side-text {
+    padding: 40px;
+    position: relative;
+    top: 50px;
+  }
+
+  .fab {
+    color: #cec2ab;
+  }
+
+  .fa-github {
+    padding-right: 30px;
+
+  }
+
+  .fa-linkedin {
+    padding-left: 20px;
+  }
+
+  .icons {
+    position: relative;
+    top: -380px;
+  }
 }
