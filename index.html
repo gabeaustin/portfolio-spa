@@ -27,31 +27,31 @@
     <title>Gabriel Austin | Portfolio</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-6 border">one</div>
-        <div class="col-md-6 border">two</div>
+        <div class="col-sm-12 col-md-12 col-lg-12 border">one</div>
       </div>
     </div>
     <div class="container">
       <!-- left side w/ image -->
-      <div class="row">
-        <div class="col-md-4 border">
-          <!-- <div class="left-side-image"> -->
-          <div class="main-image">
-            <img src="images/hair-up.png" alt="Gabriel Austin headshot" />
+      <div class="row align-items-center">
+        <div class="col-md-6 border">
+          <div class="main-image w-50 p-3">
+            <img
+              src="images/hair-up.png"
+              class="img-fluid mx-auto rounded-circle border"
+              alt="Gabriel Austin headshot"
+            />
           </div>
           <div class="icons">
             <i class="fab fa-github fa-2x"></i>
             <i class="fab fa-linkedin fa-2x"></i>
           </div>
-          <!-- </div> -->
         </div>
-        <div class="col-md-4 border">test</div>
 
         <!-- right side w/ text -->
-        <!-- <div class="right-side-text"> -->
-        <div class="col-md-4 border">
+
+        <div class="col-md-6 border">
           <div class="top-text">
             <div class="my-name-heading">Gabriel Austin</div>
             <div class="my-name-bg-heading">Gabe</div>
@@ -75,10 +75,11 @@
             </div>
           </div>
         </div>
-        <!-- </div> -->
       </div>
+    </div>
 
-      <footer class="site-footer">
+    <div class="container-fluid">
+      <footer class="site-footer border">
         <div class="site-info">
           <p>
             Copyright &copy; 2022 <span class="sep"> | </span>
@@ -87,6 +88,7 @@
         </div>
       </footer>
     </div>
+
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
