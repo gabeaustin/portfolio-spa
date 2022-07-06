@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,51 +16,82 @@
       src="https://kit.fontawesome.com/2e15c7c035.js"
       crossorigin="anonymous"
     ></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
     <title>Gabriel Austin | Portfolio</title>
   </head>
   <body>
-    <div class="my-name-heading">Gabriel Austin</div>
-    <div class="my-name-bg-heading">Gabe</div>
-    <div class="position-title">Front-End Web Developer</div>
-    <hr class="hr-line" />
-    <div class="main-container">
-      <!-- right side w/ text -->
-      <div class="right-side-text">
-        <div class="main-copy-para">
-          <p>
-            Hi everybody! My name is Gabriel “Gabe” Austin. I am a Web
-            Developer, and I’m passionate and dedicated to my work.
-          </p>
-          <br />
-          <p>
-            With over 2 years experience as a professional Web Developer, I have
-            acquired the skills and knowledge to make a project a success. I
-            enjoy every step of the design and development process.
-          </p>
-          <br />
-          <p>Check out some of my projects or give me a shout!</p>
-        </div>
-      </div>
-
-      <!-- left side w/ image -->
-      <div class="left-side-image">
-        <div class="main-image">
-          <img src="images/hair-up.png" alt="Gabriel Austin headshot" />
-        </div>
-        <div class="icons">
-          <i class="fab fa-github fa-2x"></i>
-          <i class="fab fa-linkedin fa-2x"></i>
-        </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 border">one</div>
+        <div class="col-md-6 border">two</div>
       </div>
     </div>
+    <div class="container">
+      <!-- left side w/ image -->
+      <div class="row">
+        <div class="col-md-4 border">
+          <!-- <div class="left-side-image"> -->
+          <div class="main-image">
+            <img src="images/hair-up.png" alt="Gabriel Austin headshot" />
+          </div>
+          <div class="icons">
+            <i class="fab fa-github fa-2x"></i>
+            <i class="fab fa-linkedin fa-2x"></i>
+          </div>
+          <!-- </div> -->
+        </div>
+        <div class="col-md-4 border">test</div>
 
-    <footer class="site-footer">
-      <div class="site-info">
-        <p>
-          Copyright &copy; 2022 <span class="sep"> | </span>
-          <a href="https://www.myboygabe.com">Austin</a>
-        </p>
+        <!-- right side w/ text -->
+        <!-- <div class="right-side-text"> -->
+        <div class="col-md-4 border">
+          <div class="top-text">
+            <div class="my-name-heading">Gabriel Austin</div>
+            <div class="my-name-bg-heading">Gabe</div>
+            <div class="position-title">Front-End Web Developer</div>
+            <hr class="hr-line" />
+
+            <div class="main-copy-para">
+              <p>
+                Hi everybody! My name is Gabriel “Gabe” Austin. I am a Web
+                Developer, and I’m passionate and dedicated to my work.
+              </p>
+              <br />
+              <p>
+                With over 2 years experience as a professional Web Developer, I
+                have acquired the skills and knowledge to make a project a
+                success. I enjoy every step of the design and development
+                process.
+              </p>
+              <br />
+              <p>Check out some of my projects or give me a shout!</p>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
       </div>
-    </footer>
+
+      <footer class="site-footer">
+        <div class="site-info">
+          <p>
+            Copyright &copy; 2022 <span class="sep"> | </span>
+            <a href="https://www.myboygabe.com">Austin</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
