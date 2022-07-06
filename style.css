@@ -50,6 +50,25 @@ p {
 /* img on left side */
 .main-image {
   background-color: #cec2ab;
+  border-radius: 50%;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 6px;
+  position: relative;
+  top: -400px;
+  vertical-align: top;
+  width: 100px;
+}
+
+.main-image img {
+  border: 1px solid #ebebeb;
+  border-radius: 50%;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+  position: relative;
+  vertical-align: top;
 }
 
 /*
@@ -145,106 +164,212 @@ p {
 }
 
 /* tablet */
-@media only screen and (min-width: 601px) and (max-width: 768px) {}
-
-/* mobile */
-@media only screen and (max-width: 600px) {
-  .main-container {
-    display: flex;
-    flex-direction: column;
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  body {
+    background-color: #f0ece5;
+    font-family: "Poppins", sans-serif;
   }
 
-  /* full name - Gabriel Austin */
-  .my-name-heading {
+  p {
+    color: #7f7f7f !important;
+    font-size: 1rem;
+  }
+
+  /* img on left side */
+  .main-image {
+    background-color: #cec2ab;
+  }
+
+  /*
+.left-side-image {
+  padding: 80px;
+}
+
+.vc_single_image-wrapper.vc_box_border img {
+  outline: solid magenta;
+  width: 300px;
+}
+
+
+.right-side-text {
+  padding-right: 100px;
+}
+*/
+  .my-name-heading p {
     color: #333 !important;
-    font-size: 1.5rem;
-    font-weight: 600;
-    letter-spacing: 4px;
-    padding-left: 20px;
+    font-size: 2.2rem;
+    font-weight: 900;
+    padding-left: 5px;
     position: relative;
     text-transform: uppercase;
-    top: 55px;
+    top: 45px;
     z-index: 100;
   }
 
-  /* nickname - Gabe */
-  .my-name-bg-heading {
-    color: transparent;
-    font-size: 7rem;
+  .my-name-bg-heading p {
+    bottom: -36px;
+    color: transparent !important;
+    font-size: 9.4rem;
     font-weight: 700;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
     line-height: 1;
-    max-width: 80%;
-    opacity: 0.5;
-    padding: 0 10px;
+    left: -6px;
+    max-width: 100%;
+    opacity: 0.1;
     position: relative;
     text-transform: uppercase;
-    top: -20px;
+    top: -200px;
     -webkit-text-stroke: 1px #7f7f7f;
     white-space: nowrap;
     z-index: 50;
   }
 
-  /* needs work */
-  .hr-line {
-    margin-left: 35px;
-    position: relative;
-    top: -20px;
-    width: 66%;
-  }
-
-  .position-title {
+  .position-title p {
     font-size: 1.2rem;
     font-style: italic;
-    padding-left: 35px;
+    top: -270px;
+    padding-left: 5px;
     position: relative;
-    top: -20px;
   }
 
-  .main-image {
-    background-color: #cec2ab;
-    border-radius: 50%;
-    height: auto;
-    margin: 0 auto;
-    max-width: 100%;
-    padding: 6px;
+  .hr-line {
     position: relative;
-    top: -400px;
-    vertical-align: top;
-    width: 100px;
+    top: -280px;
   }
 
-  .main-image img {
-    border: 1px solid #ebebeb;
-    border-radius: 50%;
-    height: auto;
-    margin: 0 auto;
-    max-width: 100%;
+  .main-copy-para p {
     position: relative;
-    vertical-align: top;
+    top: -280px;
   }
 
-  .main-copy-para {
-    position: relative;
-    top: 410px;
+  /* media queries */
+  /* mobile */
+  @media only screen and (max-width: 600px) {
+    .left-side-image {
+      top: 10px;
+    }
+
+    .vc_row.wpb_row.vc_inner.vc_row-fluid {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .right-side-text {
+      padding: 40px;
+    }
+
+    .my-name-heading p {
+      font-size: 1.7rem;
+      top: -500px;
+    }
+
+    .my-name-bg-heading p {
+      bottom: -36px;
+      font-size: 5.5rem;
+      letter-spacing: 10px;
+      position: relative;
+      top: -645px;
+    }
   }
 
-  .right-side-text {
-    padding: 40px;
-    position: relative;
-    top: 50px;
-  }
+  /* mobile */
+  @media only screen and (max-width: 600px) {
+    .main-container {
+      display: flex;
+      flex-direction: column;
+    }
 
-  .fab {
-    color: #cec2ab;
-  }
+    /* full name - Gabriel Austin */
+    .my-name-heading {
+      color: #333 !important;
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: 4px;
+      padding-left: 20px;
+      position: relative;
+      text-transform: uppercase;
+      top: 55px;
+      z-index: 100;
+    }
 
-  .icons {
-    column-gap: 80px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    position: relative;
-    top: -380px;
+    /* nickname - Gabe */
+    .my-name-bg-heading {
+      color: transparent;
+      font-size: 7rem;
+      font-weight: 700;
+      letter-spacing: 10px;
+      line-height: 1;
+      max-width: 80%;
+      opacity: 0.5;
+      padding: 0 10px;
+      position: relative;
+      text-transform: uppercase;
+      top: -20px;
+      -webkit-text-stroke: 1px #7f7f7f;
+      white-space: nowrap;
+      z-index: 50;
+    }
+
+    /* needs work */
+    .hr-line {
+      margin-left: 35px;
+      position: relative;
+      top: -20px;
+      width: 66%;
+    }
+
+    .position-title {
+      font-size: 1.2rem;
+      font-style: italic;
+      padding-left: 35px;
+      position: relative;
+      top: -20px;
+    }
+
+    .main-image {
+      background-color: #cec2ab;
+      border-radius: 50%;
+      height: auto;
+      margin: 0 auto;
+      max-width: 100%;
+      padding: 6px;
+      position: relative;
+      top: -400px;
+      vertical-align: top;
+      width: 100px;
+    }
+
+    .main-image img {
+      border: 1px solid #ebebeb;
+      border-radius: 50%;
+      height: auto;
+      margin: 0 auto;
+      max-width: 100%;
+      position: relative;
+      vertical-align: top;
+    }
+
+    .main-copy-para {
+      position: relative;
+      top: 410px;
+    }
+
+    .right-side-text {
+      padding: 40px;
+      position: relative;
+      top: 50px;
+    }
+
+    .fab {
+      color: #cec2ab;
+    }
+
+    .icons {
+      column-gap: 80px;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      position: relative;
+      top: -380px;
+    }
   }
-}
