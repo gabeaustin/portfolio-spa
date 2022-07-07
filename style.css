@@ -85,10 +85,11 @@ body {
   padding-right: 100px;
 }
 */
+/* Gabriel Austin */
 .my-name-heading {
   color: #333 !important;
   font-size: 2.2rem;
-  font-weight: 900;
+  font-weight: 400;
   /* padding-left: 5px; */
   position: relative;
   text-transform: uppercase;
@@ -96,6 +97,7 @@ body {
   z-index: 100;
 }
 
+/* Gabe */
 .my-name-bg-heading {
   bottom: -36px;
   color: transparent !important;
@@ -349,16 +351,22 @@ body {
       top: 50px;
     } */
 
-/* .fab {
-      color: #cec2ab;
-    } */
+.fab {
+  color: #cec2ab;
+}
 
-/* .icons {
-      column-gap: 80px;
-      display: flex;
-      justify-content: center;
-      margin: 0 auto;
-      position: relative;
-      top: -380px;
-    } */
+.fab:hover {
+  color: #333;
+  opacity: 0.5;
+}
+
+.icons {
+  /* column-gap: 80px; */
+  /* display: flex; */
+  /* justify-content: center; */
+  margin: 0 auto;
+  /* position: relative; */
+  /* top: -380px; */
+}
+
 /* } */
