@@ -101,11 +101,13 @@ body {
 .my-name-bg-heading {
   bottom: -36px;
   color: transparent !important;
+  font-family: "Khula", sans-serif;
   font-size: 9.4rem;
-  font-weight: 700;
-  letter-spacing: 15px;
+  font-weight: 400;
+  letter-spacing: 10px;
   line-height: 1;
   left: -10px;
+  max-width: 100%;
   position: relative;
   text-transform: uppercase;
   top: -55px;
@@ -113,6 +115,8 @@ body {
   white-space: nowrap;
   z-index: 50;
 }
+
+/* font-family: 'Poppins', sans-serif; */
 
 .position-title {
   font-size: 1.2rem;
