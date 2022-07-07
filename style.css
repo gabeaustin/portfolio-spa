@@ -45,7 +45,9 @@ body {
 /* img on left side */
 .main-image {
   background-color: #cec2ab;
-  border-radius: 50%;
+  border-radius: 100%;
+  max-width: 80%;
+  text-align: center;
   /* height: auto; */
   /* margin: 0 auto; */
   /* max-width: 100%; */
@@ -58,7 +60,9 @@ body {
 
 .main-image img {
   border: 1px solid #ebebeb;
-  border-radius: 50%;
+  border-radius: 100%;
+  max-width: 80%;
+  text-align: center;
   /* height: auto; */
   /* margin: 0 auto; */
   /* max-width: 100%; */
@@ -100,7 +104,6 @@ body {
   letter-spacing: 15px;
   line-height: 1;
   left: -10px;
-  opacity: 0.35;
   position: relative;
   text-transform: uppercase;
   top: -55px;
@@ -115,15 +118,9 @@ body {
   padding-left: 5px;
 }
 
-/* .hr-line {
-  position: relative;
-  top: -280px;
-} */
-
-/* .main-copy-para p {
-  position: relative;
-  top: -280px;
-} */
+.main-copy-para {
+  line-height: 1.5rem;
+}
 
 /* media queries */
 /* mobile */
