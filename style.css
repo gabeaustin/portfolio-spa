@@ -313,7 +313,20 @@ body {
 }
 
 .projects-container {
-  margin-top: 50px;
+  margin-top: 20px;
+}
+
+.projects-heading {
+  color: transparent !important;
+  font-family: "Khula", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+  max-width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #7f7f7f;
+  white-space: nowrap;
 }
 
 .projects-container a.nav-link {
