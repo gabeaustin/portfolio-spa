@@ -308,6 +308,35 @@ body {
 }
 
 .icons {
-  padding-top: 30px;
   column-gap: 80px;
+  padding-top: 30px;
+}
+
+.projects-container {
+  margin-top: 50px;
+}
+
+.projects-container a.nav-link {
+  color: #333;
+}
+
+.projects-container a.nav-link:hover {
+  border-bottom: solid 1px #333;
+  border-top: solid 1px #333;
+}
+
+.site-footer {
+  bottom: 0px;
+  text-align: center;
+  position: relative;
+}
+
+.site-footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  border-bottom: solid 1px #333;
+  border-top: solid 1px #333;
 }
