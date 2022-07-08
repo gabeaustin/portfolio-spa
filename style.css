@@ -1,37 +1,3 @@
-/* navigation */
-/*
-.main-navigation ul ul {
-  box-shadow: none;
-}
-
-#primary-menu {
-  background-color: #cec2ab;
-  justify-content: flex-end;
-  padding: 15px;
-  width: 100% !important;
-}
-
-#primary-menu a {
-  color: #333;
-  font-size: 1.2em;
-  padding-right: 20px;
-}
-
-.sub-menu {
-  background-color: #cec2ab;
-  flex-direction: column;
-  padding-left: 20px !important;
-}
-
-.sub-menu a {
-  padding: 10px 0;
-}
-
-.sub-menu a:hover {
-  background-color: #fff;
-  width: 100% !important;
-}
-*/
 body {
   background-color: #f0ece5;
   font-family: "Poppins", sans-serif;
@@ -51,60 +17,25 @@ body {
   color: #333;
 }
 
-/* p {
-  color: #7f7f7f !important;
-  font-size: 1rem;
-} */
-
 /* img on left side */
 .main-image {
   background-color: #cec2ab;
   border-radius: 100%;
-  max-width: 80%;
+  max-width: 100%;
   text-align: center;
-  /* height: auto; */
-  /* margin: 0 auto; */
-  /* max-width: 100%; */
-  /* padding: 6px; */
-  /* position: relative; */
-  /* top: -400px; */
-  /* vertical-align: top; */
-  /* width: 100px; */
 }
 
 .main-image img {
-  border: 1px solid #ebebeb;
   border-radius: 100%;
-  max-width: 80%;
+  max-width: 100%;
   text-align: center;
-  /* height: auto; */
-  /* margin: 0 auto; */
-  /* max-width: 100%; */
-  /* position: relative; */
-  /* vertical-align: top; */
 }
 
-/*
-.left-side-image {
-  padding: 80px;
-}
-
-.vc_single_image-wrapper.vc_box_border img {
-  outline: solid magenta;
-  width: 300px;
-}
-
-
-.right-side-text {
-  padding-right: 100px;
-}
-*/
 /* Gabriel Austin */
 .my-name-heading {
   color: #333 !important;
   font-size: 2.2rem;
   font-weight: 400;
-  /* padding-left: 5px; */
   position: relative;
   text-transform: uppercase;
   top: 45px;
@@ -129,8 +60,6 @@ body {
   white-space: nowrap;
   z-index: 50;
 }
-
-/* font-family: 'Poppins', sans-serif; */
 
 .position-title {
   font-size: 1.2rem;
@@ -381,11 +310,4 @@ body {
 .icons {
   padding-top: 30px;
   column-gap: 80px;
-  /* display: flex; */
-  /* justify-content: flex-start; */
-  /* margin: 0 auto; */
-  /* position: relative; */
-  /* top: -380px; */
 }
-
-/* } */
