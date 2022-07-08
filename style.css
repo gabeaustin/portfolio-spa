@@ -17,6 +17,10 @@ body {
   color: #333;
 }
 
+.main-image-container {
+  padding: 7rem;
+}
+
 /* img on left side */
 .main-image {
   background-color: #cec2ab;
