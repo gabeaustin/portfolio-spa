@@ -52,57 +52,66 @@
   </head>
   <body>
     <!-- Navigation -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12 border">
-          <nav class="navbar navbar-expand-lg bg-light">
-            <!-- <div class="container-fluid"> -->
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    id="navbarDropdown"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Projects
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-            <!-- </div> -->
-          </nav>
-        </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 nav-top-container">
+        <nav class="navbar navbar-expand-lg fixed-top border-bottom">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle mx-5"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Projects
+                </a>
+                <ul class="dropdown-menu mx-5" aria-labelledby="navbarDropdown">
+                  <li>
+                    WordPress Projects
+                    <ul
+                      class="dropdown-menu mx-5"
+                      aria-labelledby="navbarDropdown"
+                    >
+                      <li>
+                        <a class="dropdown-item" href="#">Campaign Site</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </div>
+
     <div class="container">
       <!-- left side w/ image -->
       <div class="row align-items-center">
-        <div class="offset-sm-0 offset-md-1 col-md-4 p-4">
+        <div class="offset-sm-0 offset-md-1 col-md-5 p-4">
           <div class="main-image p-1">
             <img
               src="images/hair-up.png"
@@ -110,10 +119,11 @@
               alt="Gabriel Austin headshot"
             />
           </div>
-          <div class="icons d-flex justify-content-evenly border">
+          <div class="icons d-flex justify-content-center">
             <a href="http://www.github.com/gabeaustin"
               ><i class="fab fa-github fa-2x"></i
             ></a>
+
             <a href="http://www.linkedin.com/in/gabrielaustin"
               ><i class="fab fa-linkedin fa-2x"></i
             ></a>
@@ -122,10 +132,10 @@
 
         <!-- right side w/ text -->
 
-        <div class="col-md-4">
+        <div class="col-md-5">
           <div class="top-text">
             <div class="my-name-heading">Gabriel Austin</div>
-            <div class="my-name-bg-heading opacity-25 pt-3">Gabe</div>
+            <div class="my-name-bg-heading opacity-50 pt-3">Gabe</div>
             <div class="position-title">Front-End Web Developer</div>
             <hr class="hr-line w-75 mt-1 mb-4" />
 
