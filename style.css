@@ -75,6 +75,68 @@ body {
   line-height: 1.5rem;
 }
 
+.fab {
+  color: #cec2ab;
+}
+
+.fab:hover {
+  color: #333;
+  opacity: 0.5;
+}
+
+.icons {
+  column-gap: 80px;
+  padding-top: 30px;
+}
+
+.projects-container {
+  margin-top: 20px;
+}
+
+.projects-heading {
+  color: transparent !important;
+  font-family: "Khula", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+  max-width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #7f7f7f;
+  white-space: nowrap;
+}
+
+.projects-container a.nav-link {
+  color: #333;
+}
+
+.projects-container a.nav-link:hover {
+  border-bottom: solid 1px #333;
+  border-top: solid 1px #333;
+}
+
+ul.nav.nav-pills {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+
+.site-footer {
+  bottom: 0px;
+  text-align: center;
+  position: relative;
+}
+
+.site-footer a {
+  color: #333;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  border-bottom: solid 1px #333;
+  border-top: solid 1px #333;
+}
+
 /* media queries */
 /* mobile */
 /* @media only screen and (max-width: 600px) {
@@ -302,58 +364,38 @@ body {
       top: 50px;
     } */
 
-.fab {
-  color: #cec2ab;
-}
 
-.fab:hover {
-  color: #333;
-  opacity: 0.5;
-}
 
-.icons {
-  column-gap: 80px;
-  padding-top: 30px;
-}
 
-.projects-container {
-  margin-top: 20px;
-}
+/* media queries */
+/* mobile */
+@media only screen and (max-width: 600px) {
+  .main-image-container {
+    padding: 9rem;
+    margin-top: -50px !important;
+  }
 
-.projects-heading {
-  color: transparent !important;
-  font-family: "Khula", sans-serif;
-  font-size: 3rem;
-  font-weight: 400;
-  letter-spacing: 4px;
-  max-width: 100%;
-  text-align: center;
-  text-transform: uppercase;
-  -webkit-text-stroke: 1px #7f7f7f;
-  white-space: nowrap;
-}
+  .icons {
+    margin-bottom: -80px;
+    padding-top: 40px;
+  }
 
-.projects-container a.nav-link {
-  color: #333;
-}
+  .my-name-bg-heading,
+  .my-name-heading,
+  .position-title,
+  .main-copy-para {
+    letter-spacing: normal;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-.projects-container a.nav-link:hover {
-  border-bottom: solid 1px #333;
-  border-top: solid 1px #333;
-}
+  .hr-line {
+    margin-left: 20px;
+  }
 
-.site-footer {
-  bottom: 0px;
-  text-align: center;
-  position: relative;
-}
-
-.site-footer a {
-  color: #333;
-  text-decoration: none;
-}
-
-.site-footer a:hover {
-  border-bottom: solid 1px #333;
-  border-top: solid 1px #333;
+  ul.nav.nav-pills {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 140px;
+  }
 }
