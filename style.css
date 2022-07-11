@@ -381,7 +381,12 @@ ul.nav.nav-pills {
   }
 
   .my-name-bg-heading,
-  .my-name-heading,
+  .my-name-heading {
+    letter-spacing: normal;
+    padding-left: 5px;
+    padding-right: 20px;
+  }
+
   .position-title,
   .main-copy-para {
     letter-spacing: normal;
@@ -397,5 +402,17 @@ ul.nav.nav-pills {
     display: flex;
     flex-direction: column;
     margin-bottom: 140px;
+  }
+
+  .projects-container a.nav-link {
+    border-bottom: solid 1px #333;
+    border-top: solid 1px #333;
+    margin-bottom: 30px;
+  }
+
+  .nav-fill .nav-item .nav-link,
+  .nav-justified .nav-item .nav-link {
+    width: 60%;
+    margin: 0 auto;
   }
 }
