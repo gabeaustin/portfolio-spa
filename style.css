@@ -1,18 +1,18 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
   background-color: #f0ece5;
   font-family: "Poppins", sans-serif;
 }
 
-/* nav {
-  background-color: #333;
-  opacity: 0.2;
-} */
-
 .nav-top-container {
   margin-bottom: 4rem;
 }
 
-/* li.nav-item.dropdown { */
 #navbarDropdown a {
   color: #333;
 }
@@ -121,10 +121,9 @@ ul.nav.nav-pills {
   margin-bottom: 60px;
 }
 
-.site-footer {
-  bottom: 0px;
+/* footer */
+p.fixed.bottom {
   text-align: center;
-  position: relative;
 }
 
 .site-footer a {
@@ -136,86 +135,6 @@ ul.nav.nav-pills {
   border-bottom: solid 1px #333;
   border-top: solid 1px #333;
 }
-
-/* media queries */
-/* tablet */
-/* @media only screen and (min-width: 601px) and (max-width: 768px) {
-  body {
-    background-color: #f0ece5;
-    font-family: "Poppins", sans-serif;
-  } */
-
-/* p {
-    color: #7f7f7f !important;
-    font-size: 1rem;
-  } */
-
-/* img on left side */
-/* .main-image {
-    background-color: #cec2ab;
-  } */
-
-/*
-.left-side-image {
-  padding: 80px;
-}
-
-.vc_single_image-wrapper.vc_box_border img {
-  outline: solid magenta;
-  width: 300px;
-}
-
-
-.right-side-text {
-  padding-right: 100px;
-}
-*/
-/* .my-name-heading p {
-    color: #333 !important;
-    font-size: 2.2rem;
-    font-weight: 900;
-    padding-left: 5px;
-    position: relative;
-    text-transform: uppercase;
-    top: 45px;
-    z-index: 100;
-  } */
-
-/* .my-name-bg-heading p {
-    bottom: -36px;
-    color: transparent !important;
-    font-size: 9.4rem;
-    font-weight: 700;
-    letter-spacing: 15px;
-    line-height: 1;
-    left: -6px;
-    max-width: 100%;
-    opacity: 0.1;
-    position: relative;
-    text-transform: uppercase;
-    top: -200px;
-    -webkit-text-stroke: 1px #7f7f7f;
-    white-space: nowrap;
-    z-index: 50;
-  } */
-
-/* .position-title p {
-    font-size: 1.2rem;
-    font-style: italic;
-    top: -270px;
-    padding-left: 5px;
-    position: relative;
-  } */
-
-/* .hr-line {
-    position: relative;
-    top: -280px;
-  } */
-
-/* .main-copy-para p {
-    position: relative;
-    top: -280px;
-  } */
 
 /* mobile */
 @media only screen and (max-width: 600px) {
