@@ -12,3 +12,4 @@ This is a project that acts as a porfolio site for me. My completed projects wil
 
 ## Setup
 To run the project, click the link below:
+[www.gabeaustin.github.io/portfolio-spa](https://gabeaustin.github.io/portfolio-spa)
